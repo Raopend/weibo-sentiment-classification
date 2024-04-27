@@ -1,0 +1,35 @@
+
+[tool.poetry]
+name = "weibo-sentiment-classification"
+version = "0.1.0"
+description = ""
+authors = ["Peng Rao <raopend@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+gensim = "^4.3.2"
+torch = "^2.3.0"
+tqdm = "^4.66.2"
+scikit-learn = "^1.4.2"
+xgboost = "^2.0.3"
+plotly = "^5.21.0"
+jieba = "^0.42.1"
+scrapy = "^2.11.1"
+fastapi = "^0.110.2"
+motor = "^3.4.0"
+websockets = "^12.0"
+requests = "^2.31.0"
+scrapy-fake-useragent = "^1.4.4"
+scrapyd = "^1.4.3"
+scrapyd-client = "^1.2.3"
+pymongo = "^4.7.0"
+uvicorn = "^0.29.0"
+scipy = "1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
